@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Luna Detalles - Boxes corporativos personalizados</title>
+  <meta name="description" content="Boxes corporativos personalizados desde 20 unidades para el área de Recursos Humanos. Delivery en Lima. Cotiza en 24 horas.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'serif': ['Playfair Display', 'serif'],
+            'sans': ['Inter', 'sans-serif']
+          },
+          colors: {
+            'dusty-rose': '#C97B84',
+            'cream': '#FDF6EC',
+            'deep-chocolate': '#3D1C02',
+            'gold': '#D4A853'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-cream text-deep-chocolate font-sans antialiased">
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/51923145678?text=Hola%2C%20quiero%20cotizar%20boxes%20corporativos%20para%20mi%20equipo"
+     class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-2xl hover:scale-105 transition-all duration-300 md:bottom-8 md:right-8"
+     target="_blank" rel="noopener noreferrer" aria-label="Contáctanos por WhatsApp">
+    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+    </svg>
+  </a>
+
+  <!-- NAV -->
+  <nav class="fixed top-0 w-full z-40 bg-cream/80 backdrop-blur-xl border-b border-dusty-rose/20 shadow-sm">
+    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="font-serif font-bold text-xl text-deep-chocolate">
+        Media Luna <span class="text-gold">Detalles</span>
+      </div>
+      <a href="#form" class="bg-gold hover:bg-opacity-90 text-deep-chocolate font-semibold py-2 px-6 rounded-full text-sm transition-all duration-300 shadow-lg hover:-translate-y-0.5">
+        Cotizar ahora
+      </a>
+    </div>
+  </nav>
+
+  <!-- 1. HERO -->
+  <section id="hero" class="hero-bg min-h-screen flex items-center justify-center text-center text-white px-4 py-20 pt-32 overflow-hidden">
+    <div class="max-w-4xl mx-auto fade-in-up">
+      <p class="text-gold font-semibold tracking-widest uppercase text-sm mb-6 drop-shadow-lg">Lima, Perú · Regalos corporativos</p>
+      <h1 class="text-4xl md:text-6xl lg:text-7xl font-serif font-bold leading-tight mb-6 drop-shadow-2xl">
+        Sorprende a tu equipo<br>en cada fecha especial
+      </h1>
+      <p class="text-xl md:text-2xl font-sans font-light mb-10 max-w-2xl mx-auto leading-relaxed drop-shadow-lg">
+        Boxes corporativos personalizados desde 20 unidades — para el área de
+        Recursos Humanos que cuida a su gente
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+        <a href="#form" class="btn-gold w-full sm:w-auto text-center">
+          Cotizar ahora
+        </a>
+        <a href="#products" class="btn-outline w-full sm:w-auto text-center">
+          Ver catálogo
+        </a>
+      </div>
+      <div class="flex flex-wrap gap-3 justify-center items-center">
+        <div class="trust-badge">📦 Desde 20 unidades</div>
+        <div class="trust-badge">✏️ 100% personalizado</div>
+        <div class="trust-badge">🚚 Delivery en Lima</div>
+        <div class="trust-badge">⭐ +200 empresas atendidas</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. SOCIAL PROOF -->
+  <section class="bg-white py-14 overflow-hidden">
+    <div class="container mx-auto px-4">
+      <p class="text-center text-sm font-semibold uppercase tracking-widest text-deep-chocolate/50 mb-10">Empresas que confían en nosotros</p>
+      <div class="logo-track-wrapper">
+        <div class="logo-track">
+          <div class="logo-slot">Banco de Crédito</div>
+          <div class="logo-slot">Scotiabank</div>
+          <div class="logo-slot">Interbank</div>
+          <div class="logo-slot">BBVA</div>
+          <div class="logo-slot">Ripley</div>
+          <div class="logo-slot">Falabella</div>
+          <div class="logo-slot">Banco de Crédito</div>
+          <div class="logo-slot">Scotiabank</div>
+          <div class="logo-slot">Interbank</div>
+          <div class="logo-slot">BBVA</div>
+          <div class="logo-slot">Ripley</div>
+          <div class="logo-slot">Falabella</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. PRODUCTS -->
+  <section id="products" class="py-24 bg-cream">
+    <div class="container mx-auto px-4">
+      <h2 class="section-title">Nuestras líneas de boxes</h2>
+      <p class="section-subtitle">Elige la opción perfecta para tu equipo</p>
+      <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mt-16">
+
+        <!-- Box Esencial -->
+        <div class="product-card group">
+          <span class="product-tag bg-gold text-deep-chocolate">Popular</span>
+          <div class="product-img-placeholder">
+            <div class="w-20 h-20 bg-gradient-to-br from-dusty-rose to-cream rounded-2xl shadow-inner"></div>
+          </div>
+          <h3 class="text-2xl font-serif font-bold mb-3 mt-6">Box Esencial</h3>
+          <p class="text-deep-chocolate/70 mb-6">Ideal para fechas institucionales</p>
+          <div class="text-3xl font-bold text-gold mb-8">Desde S/45 c/u</div>
+          <button onclick="selectProduct('Box Esencial')" class="btn-card bg-gold text-deep-chocolate">
+            Quiero este
+          </button>
+        </div>
+
+        <!-- Box Premium -->
+        <div class="product-card group ring-2 ring-dusty-rose/40 scale-[1.02]">
+          <span class="product-tag bg-dusty-rose text-white">Más vendido</span>
+          <div class="product-img-placeholder">
+            <div class="w-24 h-24 bg-gradient-to-br from-gold to-dusty-rose rounded-2xl shadow-xl"></div>
+          </div>
+          <h3 class="text-2xl font-serif font-bold mb-3 mt-6">Box Premium</h3>
+          <p class="text-deep-chocolate/70 mb-6">Para reconocimientos especiales</p>
+          <div class="text-3xl font-bold text-gold mb-8">Desde S/85 c/u</div>
+          <button onclick="selectProduct('Box Premium')" class="btn-card bg-dusty-rose text-white">
+            Quiero este
+          </button>
+        </div>
+
+        <!-- Box Personalizado -->
+        <div class="product-card group">
+          <span class="product-tag bg-deep-chocolate text-gold">Corporativo</span>
+          <div class="product-img-placeholder">
+            <div class="w-24 h-24 bg-gradient-to-br from-deep-chocolate to-gold rounded-2xl shadow-xl border-4 border-white/50"></div>
+          </div>
+          <h3 class="text-2xl font-serif font-bold mb-3 mt-6">Box Personalizado</h3>
+          <p class="text-deep-chocolate/70 mb-6">Diseño exclusivo para tu marca</p>
+          <div class="text-2xl font-bold text-gold mb-8">Cotizar</div>
+          <button onclick="selectProduct('Box Personalizado')" class="btn-card bg-deep-chocolate text-gold">
+            Quiero este
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. HOW IT WORKS -->
+  <section class="py-24 bg-dusty-rose/8">
+    <div class="container mx-auto px-4">
+      <h2 class="section-title">¿Cómo funciona?</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-10 max-w-5xl mx-auto mt-16">
+        <div class="step-item">
+          <div class="step-number">1</div>
+          <h3 class="font-serif font-semibold text-lg mb-2">Cuéntanos tu fecha</h3>
+          <p class="text-deep-chocolate/70 text-sm">Completa el formulario con tu necesidad</p>
+        </div>
+        <div class="step-item">
+          <div class="step-number">2</div>
+          <h3 class="font-serif font-semibold text-lg mb-2">Recibe tu cotización</h3>
+          <p class="text-deep-chocolate/70 text-sm">En menos de 24 horas hábiles</p>
+        </div>
+        <div class="step-item">
+          <div class="step-number">3</div>
+          <h3 class="font-serif font-semibold text-lg mb-2">Aprobamos juntos</h3>
+          <p class="text-deep-chocolate/70 text-sm">Revisamos diseño y contenido contigo</p>
+        </div>
+        <div class="step-item">
+          <div class="step-number">4</div>
+          <h3 class="font-serif font-semibold text-lg mb-2">Entregamos</h3>
+          <p class="text-deep-chocolate/70 text-sm">Delivery puntual en Lima Metropolitana</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. DATES -->
+  <section class="py-24 bg-cream">
+    <div class="container mx-auto px-4">
+      <h2 class="section-title">Perfectos para cada fecha</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mt-16">
+        <div class="date-card"><div class="text-4xl mb-3">💝</div><p class="font-semibold">Día de la Madre</p></div>
+        <div class="date-card"><div class="text-4xl mb-3">👨‍💼</div><p class="font-semibold">Día del Padre</p></div>
+        <div class="date-card"><div class="text-4xl mb-3">🎄</div><p class="font-semibold">Navidad</p></div>
+        <div class="date-card"><div class="text-4xl mb-3">🎂</div><p class="font-semibold">Cumpleaños</p></div>
+        <div class="date-card"><div class="text-4xl mb-3">👩‍💼</div><p class="font-semibold">Día de la Mujer</p></div>
+        <div class="date-card"><div class="text-4xl mb-3">📚</div><p class="font-semibold">Día del Maestro</p></div>
+        <div class="date-card"><div class="text-4xl mb-3">🇵🇪</div><p class="font-semibold">Fiestas Patrias</p></div>
+        <div class="date-card"><div class="text-4xl mb-3">🏆</div><p class="font-semibold">Reconocimientos</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. TESTIMONIALS -->
+  <section class="py-24 bg-dusty-rose/10">
+    <div class="container mx-auto px-4">
+      <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+      <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-16">
+        <div class="testimonial-card">
+          <div class="avatar">👩</div>
+          <p class="italic text-deep-chocolate/80 mb-6 leading-relaxed">"Pedimos 80 boxes para el Día de la Madre y el equipo quedó encantado. La presentación fue impecable."</p>
+          <div class="font-semibold">María G.</div>
+          <div class="text-sm text-deep-chocolate/60">Jefa de RRHH · Empresa retail Lima</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="avatar">👨</div>
+          <p class="italic text-deep-chocolate/80 mb-6 leading-relaxed">"Desde que trabajamos con Media Luna no buscamos otro proveedor. Siempre cumplen con los tiempos."</p>
+          <div class="font-semibold">Carlos R.</div>
+          <div class="text-sm text-deep-chocolate/60">Talent Manager · Empresa financiera</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="avatar">👩</div>
+          <p class="italic text-deep-chocolate/80 mb-6 leading-relaxed">"Súper fácil coordinar, nos ayudaron con el diseño y todo llegó perfecto."</p>
+          <div class="font-semibold">Lucía P.</div>
+          <div class="text-sm text-deep-chocolate/60">Coordinadora de Bienestar · Empresa tech</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. FORM -->
+  <section id="form" class="py-24 bg-gradient-to-b from-dusty-rose/20 to-cream">
+    <div class="container mx-auto px-4 max-w-3xl">
+      <div class="form-card">
+        <h2 class="text-3xl md:text-4xl font-serif font-bold text-center mb-3">Solicita tu cotización gratuita</h2>
+        <p class="text-center text-deep-chocolate/60 mb-12 text-lg">Te respondemos en menos de 24 horas hábiles</p>
+
+        <form id="leadForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="nombre">Nombre completo *</label>
+              <input type="text" id="nombre" name="nombre" class="form-input" required placeholder="Tu nombre completo">
+              <span class="field-error"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="empresa">Empresa *</label>
+              <input type="text" id="empresa" name="empresa" class="form-input" required placeholder="Nombre de tu empresa">
+              <span class="field-error"></span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="cargo">Cargo / Área *</label>
+              <input type="text" id="cargo" name="cargo" class="form-input" required placeholder="Ej: Jefa de RRHH">
+              <span class="field-error"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="whatsapp">WhatsApp *</label>
+              <input type="tel" id="whatsapp" name="whatsapp" class="form-input" required placeholder="+51 9XX XXX XXX">
+              <span class="field-error"></span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="email">Email *</label>
+              <input type="email" id="email" name="email" class="form-input" required placeholder="tu@empresa.com">
+              <span class="field-error"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="cantidad">Cantidad de boxes *</label>
+              <select id="cantidad" name="cantidad" class="form-input" required>
+                <option value="">Seleccionar...</option>
+                <option value="20-50 unidades">20-50 unidades</option>
+                <option value="51-100 unidades">51-100 unidades</option>
+                <option value="101-200 unidades">101-200 unidades</option>
+                <option value="Más de 200">Más de 200</option>
+              </select>
+              <span class="field-error"></span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="fecha_entrega">Fecha de entrega *</label>
+              <input type="date" id="fecha_entrega" name="fecha_entrega" class="form-input" required>
+              <span class="field-error"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="ocasion">Ocasión *</label>
+              <select id="ocasion" name="ocasion" class="form-input" required>
+                <option value="">Seleccionar...</option>
+                <option>Día de la Madre</option>
+                <option>Día del Padre</option>
+                <option>Navidad</option>
+                <option>Cumpleaños</option>
+                <option>Reconocimiento</option>
+                <option>Fiestas Patrias</option>
+                <option>Día de la Mujer</option>
+                <option>Otro</option>
+              </select>
+              <span class="field-error"></span>
+            </div>
+          </div>
+
+          <div class="form-group form-full">
+            <label class="form-label">Tipo de box</label>
+            <div class="radio-grid">
+              <label class="radio-card"><input type="radio" name="tipo_box" value="Box Esencial"><span>Box Esencial</span></label>
+              <label class="radio-card"><input type="radio" name="tipo_box" value="Box Premium"><span>Box Premium</span></label>
+              <label class="radio-card"><input type="radio" name="tipo_box" value="Box Personalizado"><span>Box Personalizado</span></label>
+              <label class="radio-card"><input type="radio" name="tipo_box" value="No sé aún, quiero asesoría"><span>Quiero asesoría</span></label>
+            </div>
+          </div>
+
+          <div class="form-group form-full">
+            <label class="form-label" for="mensaje">Mensaje adicional</label>
+            <textarea id="mensaje" name="mensaje" class="form-input" rows="4"
+              placeholder="Cuéntanos más sobre tu idea, si tienes logo, colores de empresa, productos específicos..."></textarea>
+          </div>
+
+          <button type="submit" id="submitBtn" class="submit-btn">
+            Enviar solicitud de cotización →
+          </button>
+
+          <div id="formMessage" class="form-message hidden"></div>
+        </form>
+
+        <p class="text-center text-sm text-deep-chocolate/50 mt-8 pt-6 border-t border-dusty-rose/20">
+          🔒 Tus datos están seguros. No compartimos tu información.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. FAQ -->
+  <section class="py-24 bg-cream">
+    <div class="container mx-auto px-4 max-w-3xl">
+      <h2 class="section-title">Preguntas frecuentes</h2>
+      <div class="mt-16 space-y-4" id="faqContainer">
+        <div class="faq-item">
+          <button class="faq-btn" onclick="toggleFaq(this)">
+            <span>¿Cuál es el pedido mínimo?</span>
+            <svg class="faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-answer">
+            El mínimo es de 20 unidades por pedido. Para pedidos menores, contáctanos directamente por WhatsApp.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-btn" onclick="toggleFaq(this)">
+            <span>¿Hacen delivery fuera de Lima?</span>
+            <svg class="faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-answer">
+            Actualmente operamos en Lima Metropolitana. Para provincias coordinamos envío por agencia con costo adicional.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-btn" onclick="toggleFaq(this)">
+            <span>¿Puedo incluir el logo de mi empresa?</span>
+            <svg class="faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-answer">
+            Sí, trabajamos con tu branding. Solo necesitamos el logo en alta resolución y los colores de tu empresa.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-btn" onclick="toggleFaq(this)">
+            <span>¿Cuánto tiempo de anticipación necesitan?</span>
+            <svg class="faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-answer">
+            Recomendamos 10-15 días hábiles para personalización. En fechas de alta demanda (Día de la Madre, Navidad) sugerimos 3-4 semanas de anticipación.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-btn" onclick="toggleFaq(this)">
+            <span>¿Qué métodos de pago aceptan?</span>
+            <svg class="faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-answer">
+            Transferencia bancaria, Yape, Plin y MercadoPago. El pago es 50% al confirmar el pedido y 50% antes de la entrega.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. FOOTER -->
+  <footer class="bg-deep-chocolate text-cream py-16">
+    <div class="container mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-12 mb-12">
+        <div>
+          <div class="text-2xl font-serif font-bold mb-3">Media Luna <span class="text-gold">Detalles</span></div>
+          <p class="text-cream/70 text-sm leading-relaxed">Boxes corporativos personalizados para fechas que importan</p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4 text-gold">Contacto</h4>
+          <ul class="space-y-2 text-cream/80 text-sm">
+            <li><a href="https://wa.me/51923145678" target="_blank" class="hover:text-gold transition-colors">📱 WhatsApp +51 923 145 678</a></li>
+            <li><a href="mailto:hola@medialunadetl.com" class="hover:text-gold transition-colors">✉️ hola@medialunadetl.com</a></li>
+            <li><a href="https://instagram.com/medialalunadetl" target="_blank" class="hover:text-gold transition-colors">📸 @medialalunadetl</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4 text-gold">Legal</h4>
+          <ul class="space-y-2 text-cream/80 text-sm">
+            <li><a href="#" class="hover:text-gold transition-colors">Política de privacidad</a></li>
+            <li><a href="#" class="hover:text-gold transition-colors">Términos y condiciones</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-cream/10 pt-8 text-center text-cream/50 text-sm">
+        © 2025 Media Luna Detalles — Lima, Perú
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
