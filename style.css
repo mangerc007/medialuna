@@ -971,3 +971,70 @@ body {
   .form-card { padding: 1.5rem; }
   .catalog-grid { gap: 1rem; }
 }
+
+/* ── BANNER URGENCIA DÍA DE LA MADRE ─────────────────────────── */
+.banner-urgencia {
+  background-color: #b6678b;
+  color: #f7f1eb;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+ 
+.banner-urgencia-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Satoshi', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+ 
+.banner-urgencia p {
+  margin: 0;
+  color: #f7f1eb;
+}
+ 
+.banner-icon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+ 
+.banner-cta {
+  background-color: #f7f1eb;
+  color: #b6678b;
+  padding: 0.35rem 1rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+  flex-shrink: 0;
+}
+ 
+.banner-cta:hover {
+  opacity: 0.85;
+}
+ 
+/* Etiqueta opcional en campos del formulario */
+.optional {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #999;
+  margin-left: 0.25rem;
+}
+ 
+@media (max-width: 600px) {
+  .banner-urgencia-inner {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}
